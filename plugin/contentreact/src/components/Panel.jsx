@@ -1,16 +1,11 @@
 /*global chrome*/
 import React, { useState, useEffect } from "react";
-import toast, { Toaster } from "react-hot-toast";
-
-
 import SearchBar from "./SearchBar";
 import Tabs from "./Tabs";
 import NavigationMenu from "./NavigationMenu";
 import InfoDisplayPanel from "./InfoDisplayPanel";
-
-
-
 import CreateGroupComponent from "./CreateGroupComponent";
+import toast, { Toaster } from "react-hot-toast";
 import Groups from "./Groups";
 import GroupTab from "./GroupTab";
 import AddGroupViaLink from "./AddGroupViaLink";
